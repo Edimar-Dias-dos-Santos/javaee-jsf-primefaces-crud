@@ -1,3 +1,19 @@
+# Maven
+target/
+.mvn/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+
+# NetBeans
+nb-configuration.xml
+
 # Compiled class file
 *.class
 
@@ -7,18 +23,40 @@
 # BlueJ files
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Mac
+.DS_Store
 
-# Package Files #
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Idea files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Visual Studio Code
+.vscode/
+
+# NetBeans
+nb-configuration.xml
+
+# Thumbnails
+._*
+
+# Package Files
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual Machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
+
+# Gradle
+.gradle/
+build/
+
+# Node
+node_modules/
+npm-debug.log
