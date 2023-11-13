@@ -24,5 +24,5 @@ Este projeto é um exemplo de um Sistema de Gerenciamento de Usuários desenvolv
 2. Navegue até o diretório do projeto: `cd seu-repositorio`
 3. Edite o arquivo src/main/resources/META-INF/persistence.xml para refletir as configurações do seu banco de dados local
 4. Confira as dependências, e baixe caso for necessario
-5. Acesse http://localhost:8080/seu-contexto/usuario/listar.xhtml
+5. Acesse http://localhost:8080/"seu-contexto"/usuario/listar.xhtml para interagir com o Sistema de Gerenciamento de Usuários.
 6. Execute o projeto em um servidor Java EE compatível.
